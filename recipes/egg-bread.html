@@ -19,9 +19,18 @@
     </header>
     <main>
         <h2>Egg Bread</h2>
-        <section>
+        <section class="description">
         <figure>
-            <img src="" alt="">
+            <picture>
+                <source media="(min-width: 36em)"
+                srcset="images/bread-960w-3.jpg 960w,
+                images/bread-600w-3.jpg 600w,
+                images/bread-420w-3.jpg 420w"
+                sizes="33.3vw">
+                <source srcset="images/bread-420w-mobile-3.jpg 2x,
+                 images/bread-200w-mobile-3.jpg 1x">
+                <img src="images/bread-200w-mobile-3.jpg" alt="egg bread on a dish.">
+            </picture>
             <figcaption></figcaption>
         </figure>
         </section>
